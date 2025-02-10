@@ -63,4 +63,14 @@ public class Note {
         this.text = text;
     }
 
+    @Override
+    public String toString() {
+        return "Note{" +
+                "id=" + id +
+                ", header='" + header + '\'' +
+                ", text='" + text + '\'' +
+                ", dateCreation=" + dateCreation +
+                ", dateModification=" + dateModification +
+                '}';
+    }
 }
